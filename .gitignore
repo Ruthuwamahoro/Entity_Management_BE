@@ -1,4 +1,39 @@
-bin
-.vs
-obj
+bin/
+obj/
+out/
+Generated_Code/
+
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+.vs/
+.vscode/
+
+## Dependency cache
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+
+## ASP.NET-specific
+wwwroot/lib/
+appsettings.Production.json  # optional, if it contains secrets
+.env                         # if you're using a .env file for secrets
+
+## Log files
+*.log
+
+## OS files
+.DS_Store
+Thumbs.db
+
+_ReSharper*/
+*.DotSettings.user
+
+.idea/
+*.sln.iml
+
+Migrations/ 
 .env
