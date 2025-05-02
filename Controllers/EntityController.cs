@@ -40,11 +40,6 @@ namespace EntityApi.Controllers
             }
         }
 
-        private IActionResult Ok(bool v1, string v2, Entity entity)
-        {
-            throw new NotImplementedException();
-        }
-
         [HttpDelete("delete")]
         public async Task<IActionResult> Delete([FromQuery] string name = null, [FromQuery] string phoneNumber = null)
         {
