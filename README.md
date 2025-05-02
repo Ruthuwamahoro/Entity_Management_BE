@@ -95,7 +95,4 @@ Connection strings and other settings can be found in `appsettings.json`:
 
 
 
-## License
 
-MIT
-    <!-- "DefaultConnection": "Host=${DB_HOST};Port=${DB_PORT};Database=${DB_NAME};Username=${DB_USER};Password=${DB_PASSWORD}" -->
